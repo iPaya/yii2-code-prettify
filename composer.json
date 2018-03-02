@@ -1,0 +1,41 @@
+{
+    "name": "ipaya/yii2-code-prettify",
+    "description": "Google code prettify extension for Yii2.",
+    "homepage": "https://github.com/iPaya/yii2-code-prettify",
+    "type": "yii2-extension",
+    "keywords": [
+        "yii2",
+        "extension",
+        "Code Prettify"
+    ],
+    "authors": [
+        {
+            "name": "Di Zhang",
+            "email": "zhangdi_me@163.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/code-prettify": "2015-patch12"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">4.8.20 <6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "iPaya\\Yii2\\CodePrettify\\": "src"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
